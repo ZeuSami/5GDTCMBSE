@@ -3810,6 +3810,18 @@
               id="b9f52f59-183d-4a6a-8a9e-1a4eed086629" name="指令发送"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="05191d54-8521-4434-a664-034fc9d47957" name="SADA功能实现"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="32255c77-e9cb-426f-8ec5-ec02ad3c3d93" name="控制驱动SADM"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="477034fa-42ee-4a3c-a041-b0fb6bc4658e" name="采集SADM数据"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="3aafa5e3-dc13-4d2b-9d36-6fb9b86fc71d" name="承载太阳翼"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="d1d7eba6-cd44-4c2d-9673-740ab3ab9c6c" name="测量温度"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="94bfd0db-65ab-42ca-b860-36ca53bb6bae" name="测量角度/零位"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="254f4579-6b19-4a51-9ec4-025042ea1751" name="采集太阳翼信号和功率"/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="b499a756-581b-4143-b742-1862659417da" targetElement="#483d10be-fc48-460b-940a-f3d3e3151c66"
               sourceElement="#529dea87-6838-4064-a9f0-fa42749b80d5"/>
@@ -4430,6 +4442,39 @@
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="88b68190-f504-4f91-9b3b-cafa46a4dc7a" targetElement="#05191d54-8521-4434-a664-034fc9d47957"
                 sourceElement="#e55ad3fb-a3da-4bae-b567-26feffef35c7"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="318892ce-cf00-4d3a-afd9-7b4c217105c5"
+                name="SADA" abstractType="#67db243e-89c5-4887-88ec-d6f980be4b82"/>
+            <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                id="67db243e-89c5-4887-88ec-d6f980be4b82" name="SADA">
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="bee3afff-07f2-41e2-8d02-138e3dd315fa"
+                  name="SADE" abstractType="#0a7405fc-db5e-4dbd-9176-4ce89d01727d"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f53668a1-fc6d-4e99-9fbb-c524afb205f8"
+                  name="SADM" abstractType="#190323b1-5f2b-42b2-a6db-d72a021029b8"/>
+              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                  id="0a7405fc-db5e-4dbd-9176-4ce89d01727d" name="SADE">
+                <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                    id="0faa9b16-908c-4878-aaca-7ed02ba71878" targetElement="#32255c77-e9cb-426f-8ec5-ec02ad3c3d93"
+                    sourceElement="#0a7405fc-db5e-4dbd-9176-4ce89d01727d"/>
+                <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                    id="db2e7083-fba9-4883-ac63-584aa8f57fd8" targetElement="#477034fa-42ee-4a3c-a041-b0fb6bc4658e"
+                    sourceElement="#0a7405fc-db5e-4dbd-9176-4ce89d01727d"/>
+              </ownedLogicalComponents>
+              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                  id="190323b1-5f2b-42b2-a6db-d72a021029b8" name="SADM">
+                <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                    id="a6df89f6-d0e3-45c3-9d1d-6d4d8b34ed75" targetElement="#3aafa5e3-dc13-4d2b-9d36-6fb9b86fc71d"
+                    sourceElement="#190323b1-5f2b-42b2-a6db-d72a021029b8"/>
+                <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                    id="1c98a6ef-84b6-4a18-9446-e4f0a9abe76d" targetElement="#d1d7eba6-cd44-4c2d-9673-740ab3ab9c6c"
+                    sourceElement="#190323b1-5f2b-42b2-a6db-d72a021029b8"/>
+                <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                    id="9d007969-b59e-496e-9250-d93088af0a66" targetElement="#94bfd0db-65ab-42ca-b860-36ca53bb6bae"
+                    sourceElement="#190323b1-5f2b-42b2-a6db-d72a021029b8"/>
+                <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                    id="162bccd6-24bb-4a02-99ee-48a1f4c01a34" targetElement="#254f4579-6b19-4a51-9ec4-025042ea1751"
+                    sourceElement="#190323b1-5f2b-42b2-a6db-d72a021029b8"/>
+              </ownedLogicalComponents>
+            </ownedLogicalComponents>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="5fbdd97f-206b-4687-8ab5-faa9eb9fc577" name="热控分系统">
