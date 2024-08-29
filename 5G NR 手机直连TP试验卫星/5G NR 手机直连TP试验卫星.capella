@@ -3810,6 +3810,277 @@
               id="b9f52f59-183d-4a6a-8a9e-1a4eed086629" name="指令发送"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="05191d54-8521-4434-a664-034fc9d47957" name="SADA功能实现"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="a65a7f33-79de-4e50-902f-fed713e747f5" name="新增综合电子直供电">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="82a41e6d-775a-40d2-b0f1-5fc781fc26d4" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="ec9108a4-515c-465d-b42b-188017941ef8" name="火工品功能">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="4275d9fa-38e5-402b-9b9a-ef5d7e65d975" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="31085cc8-4d32-40ff-859f-c77b19edc843" name="热刀功能">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="9706c987-10d3-4763-ad4f-eab0e9f283f8" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="9d669145-10cc-4739-b294-d8dff892d5c9" name="遥测采集">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="df19756c-e36e-4eea-bb8a-27b5da536bf3" name="FIP 1"/>
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="376d754a-851d-42f1-9007-e4a5553b7bf6" name="FIP 2"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="f489bf08-cb14-4509-9ba9-adf28ec1a931" name="FOP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="03da385e-cebe-40d9-a438-3d38d49e1b8d" name="FOP 2"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="a1a871b6-b581-4cf7-9a57-51439ac369ca" name="遥控驱动">
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="f201b36e-e770-419a-81f5-272518b5a540" name="FOP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="8584b24a-342f-455c-99b6-98872844083e" name="FOP 2"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="d42f21d3-1f86-4545-bdf4-82276b01275a" name="CAN传输">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="5e071fe9-c19b-4bbf-bef3-7e13a00e57fd" name="FIP 1"/>
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="c7c1799d-4fc2-4e64-b6b7-27efa166f5f7" name="FIP 2"/>
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="592f2686-eb8b-4e0f-83b4-d7fcc7e5099b" name="FIP 3"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="48c0dc7d-bb18-40bb-b485-519c61d38832" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="53a5605a-c4ef-464e-9d01-abd2e0a2ba9b" name="28V降压">
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="c663847d-7e47-403e-8dec-70a9cfbfd8a5" name="FOP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="10b069ff-ef70-4256-a810-e7b21694b8c4" name="FOP 2"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="03f83900-853b-4885-9c50-9cff8f1faea2" name="FOP 3"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="9e0ebe7c-b32c-4927-8c02-6ded27693200" name="FOP 4"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="9c160ff1-de94-4f17-9332-3394a9e964a1" name="FOP 5"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="6fcb4380-d9e3-4c62-9f42-57b7e2304dab" name="FOP 6"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="96cb6bd4-b66d-4511-a056-1000565284ab" name="±12降压">
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="239afb9e-bf87-4b94-8740-1926f3995958" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="268fe93a-d971-40f2-a146-bf0b1792b5ce" name="5V降压">
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="d92a67c5-1135-4aab-9e74-6612330f217f" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="7de78fc1-1b0b-48d6-b0f0-b11c7705e201" name="太阳能电池阵充电">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="7cb5fb31-a961-4d36-8807-abbfe5237396" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="3847fd6d-718b-4fb9-a54b-b9a223abccd4" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="b7cf53a6-93f7-4a25-928e-52b674b3c6c7" name="帆板展开">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="c5b32445-08f3-4dbf-ad89-ba80e8c6f0e9" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="55d01397-2fde-4067-8afe-16412f54eade" name="太阳能电池阵放电"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="be633e90-9fd7-47ec-aab0-aa6381589f8d" name="太阳能状态测量">
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="c10f47ed-fd95-44fd-9649-332aed7da7af" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="bf1d30e7-f880-465c-816a-cd7183b6be7f" name="相控阵供电1-7">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="efe5adee-edd1-4b22-9dd0-dab403e74638" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="18fd8bf8-51a2-415e-b04a-359045179994" name="相控阵电子学">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="cf28ded1-c8c7-4951-a78c-662734f8ef37" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="90c1a8f4-9228-421c-9fcb-ff687899ee9a" name="蓄电池供电">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="e8666c7b-8313-4c5e-ac49-831eceddd312" name="FIP 1"/>
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="b5d3c57b-08e2-43c5-b255-50a75d7a7fca" name="FIP 2"/>
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="cea479a3-d6fa-46e4-bfb6-c2af5522bf7e" name="FIP 3"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="189684c6-2713-4185-bb74-b1c180dc06b2" name="FOP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="08dc3c54-5199-4cfb-aec6-2bd23c72d4b9" name="FOP 2"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="3ef5965a-e4a7-4490-8447-f850594aecad" name="FOP 3"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="72b3962f-d583-4ccd-8a53-cd90409208c2" name="蓄电池过放">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="74ef875f-073c-4390-8bf0-31c36ba80dfd" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="affd8aef-0610-48f0-a296-3287d68fe726" name="蓄电池状态测量">
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="d4440a1f-f514-4785-9591-041195bc0c6d" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="ec7effbf-9a9b-4e0a-931c-bbc84b1e64d6" name="42V母线配电">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="9732ee7e-eeb8-4e4f-b512-80e6d912d807" name="FIP 1"/>
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="42103998-3d98-4d67-80b4-b56161972fd6" name="FIP 2"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="175dcf51-5fde-49f3-ac4f-10f193c115c0" name="FOP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="4449b829-7571-433c-b68d-df13fe3b7a28" name="FOP 2"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="0af72533-d3fe-4fed-8bdc-5470e28c380e" name="FOP 3"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="eb0cdb98-7398-4a0d-83ac-47088bd76d6f" name="FOP 4"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="36e7b519-3de8-41be-a2a3-463582b96c9b" name="FOP 5"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="ee0be4af-049b-4584-9db0-3fb89d9a616b" name="FOP 6"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="6189a190-d8e0-4b6c-b14c-ac24c0ccb7dc" name="FOP 7"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="929c2ba5-56fb-49ac-a9bb-cf087256be48" name="FOP 8"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="16c470b9-d305-4b34-bd41-d3b426f43d9f" name="FOP 9"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="cf73c8fc-b4b4-4ff9-807c-bb397dd3938b" name="蓄电池过放保护">
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="f6455bdd-1ad0-4036-b335-7fa29575353d" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="d13def03-08b9-4478-bbfc-e04e31443ac9" name="火工品解锁控制">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="707a4799-0434-4ee9-a117-eedc48579276" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="03adefc4-3ea7-47ab-920e-97aaba7d7e4e" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="05de908c-55a6-4efa-b7ec-0df8f786d9ba" name="QV热刀控制">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="b40b39db-b579-4794-a4c8-132f381cfb4b" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="190269ca-130f-4602-a36c-6a7054367629" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="1ce9eed7-0441-4682-a908-c8e308aab50a" name="蓄电池过放保护_3">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="2b29ff18-b2fb-4210-a739-e9d4ce98f32b" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="2b654448-25ab-4781-b621-1ef6260e8620" name="蓄电池过放保护_4">
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="83ffe638-b61c-4fca-8555-2108098756d3" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="2e3d43e8-43a6-4ae7-9064-8fa0ce9b5ef6" name="蓄电池组接入">
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="c1286af2-0a87-4c6e-aa53-6febfde6e46d" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="3cc41b7d-bee1-4434-a3e2-9d6250f91671" name="星舰分离自助加电">
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="4b921235-8f04-484a-a46c-6471bd5cd084" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="1c03fa52-6892-451d-a7ee-3528772135ad" name="综合电子模块">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="1dd83aea-3216-441b-9209-e92c981aa70c" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="ed6d080b-19e3-4225-bfc6-ce2e4f2ba9f7" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="c731d836-07e2-420e-966f-9ba2f066cfc9" name="光纤陀螺ABCD">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="d1f6a172-4e3c-425c-bda4-0464050e597d" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="98669149-c4b0-451a-b7cf-91e0d7a8da29" name="指令供电">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="6b93ebd8-ac4b-4ea4-a532-8157727603ee" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="d860deca-bc70-4843-965e-c54855d95e30" name="指令供电及磁力矩器供电">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="c8696423-7109-43cb-9856-da00f2ef5228" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="0f19e278-364f-4739-ad2e-42435e0b7c4e" name="磁强计2路">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="ef7fa617-7097-43b0-ba01-f3d0da64fd64" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="b87f875f-a9d7-4ec7-b6b7-7d1ae14ab582" name="磁力矩器4路">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="b34edd99-a89f-4bce-b172-a858951417e7" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="96d09328-9756-4bb5-8c9b-53a078d68a2f" name="轨道与姿态参数输出">
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="005617a5-ad34-4c99-ac23-97bc4173f46b" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="67d7647e-9ae2-4711-947f-44236ef653bf" name="霍尔电推3">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="f51bfd25-5546-4f1e-9b44-dafbacfc03a4" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="45a55863-b987-4169-850c-5f467efe9251" name="6路天线解锁记忆合金">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="6f02ac9a-1c2c-4d8f-93f9-8f6c6e9f5c4d" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="49fb4972-e98c-4c52-84c7-ac7c34d748ec" name="综电扩展单元主">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="4a011f4d-4265-4731-b413-9ea2de74bf3c" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="538d46ce-1f15-4563-89d8-5709b4e376c7" name="综电扩展单元备">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="19de5b0f-e2b7-49a5-a103-71acb6cd125b" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="11d66dc9-bb9e-409b-a77a-5e254f9e42a2" name="射频配电">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="deaa8c57-81dd-4d7d-aa1a-250d4d36076e" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="eba5390a-7967-49d3-b064-3ec7cdebf32d" name="单机供电">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="d65c2514-fd2f-4f54-9db1-1bd2f5edf7de" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="0e96ac0b-4c2c-4c47-9405-e3503d981ccc" name="综合电子热控供电"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="8f964d10-d80d-4765-a6ad-40f848edaa1b" name="反作用轮ABCDEF">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="9f8ec981-84c8-4f49-a098-3e16aa83abc0" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="12185493-1966-4244-ac48-6d31c491a142" name="霍尔电推1">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="38e5b073-cf8b-41ee-97d0-063c882ce117" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="39c8b2f8-dd24-4a25-89b3-7cd2baaabebc" name="霍尔电推2">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="304f102b-5fbc-460e-a41f-dcdefaa81d02" name="FIP 1"/>
+          </ownedFunctions>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="b499a756-581b-4143-b742-1862659417da" targetElement="#483d10be-fc48-460b-940a-f3d3e3151c66"
               sourceElement="#529dea87-6838-4064-a9f0-fa42749b80d5"/>
@@ -4333,6 +4604,114 @@
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="c4b3bce2-b85e-4521-8636-ecb5fdf8de42" name="输出电压" target="#081db634-8653-4bab-8b2a-a88323963536"
               source="#8910012a-24ff-483d-adef-ea9c71702aa4"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="76c0edec-afc6-4731-b037-a757a5562510" name="采集数据" target="#5e071fe9-c19b-4bbf-bef3-7e13a00e57fd"
+              source="#f489bf08-cb14-4509-9ba9-adf28ec1a931"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="1939d88e-3ed4-4e32-bacc-f44c01baa037" name="can传输控制命令" target="#c7c1799d-4fc2-4e64-b6b7-27efa166f5f7"
+              source="#f201b36e-e770-419a-81f5-272518b5a540"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="b4b3e8f3-16e0-449d-8571-9af4bafd1196" name="42V充电" target="#e8666c7b-8313-4c5e-ac49-831eceddd312"
+              source="#3847fd6d-718b-4fb9-a54b-b9a223abccd4"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="2e7693fc-dae8-4589-99f3-8e74bba2ccb7" name="太阳能状态控制" target="#df19756c-e36e-4eea-bb8a-27b5da536bf3"
+              source="#c10f47ed-fd95-44fd-9649-332aed7da7af"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="1732aaf1-5938-438a-ac3f-2f55ec89c598" name="帆板展开控制" target="#c5b32445-08f3-4dbf-ad89-ba80e8c6f0e9"
+              source="#8584b24a-342f-455c-99b6-98872844083e"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="d290db8b-d5c1-4a9c-b9e9-6845876742be" name="MEA控制分流" target="#2b29ff18-b2fb-4210-a739-e9d4ce98f32b"
+              source="#83ffe638-b61c-4fca-8555-2108098756d3"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="df7a2e08-979b-48c5-b030-e76d97e513fb" name="蓄电池接入控制" target="#b5d3c57b-08e2-43c5-b255-50a75d7a7fca"
+              source="#c1286af2-0a87-4c6e-aa53-6febfde6e46d"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="3baf3aab-95fd-4df2-8209-9f2113338db4" name="热刀供电" target="#b40b39db-b579-4794-a4c8-132f381cfb4b"
+              source="#189684c6-2713-4185-bb74-b1c180dc06b2"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="4bf110e8-594b-43fe-9721-27c1b632babf" name="星舰分离自助加电控制" target="#cea479a3-d6fa-46e4-bfb6-c2af5522bf7e"
+              source="#4b921235-8f04-484a-a46c-6471bd5cd084"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="60c38070-387a-4c31-bba1-046aab8c5826" name="火工品供电" target="#707a4799-0434-4ee9-a117-eedc48579276"
+              source="#08dc3c54-5199-4cfb-aec6-2bd23c72d4b9"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="081778b8-81aa-4ec7-88ac-b304974201c4" name="蓄电池状态" target="#376d754a-851d-42f1-9007-e4a5553b7bf6"
+              source="#d4440a1f-f514-4785-9591-041195bc0c6d"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="30b10d6d-b0ad-4ba9-9974-28f931e8d66a" name="蓄电池过放保护控制" target="#74ef875f-073c-4390-8bf0-31c36ba80dfd"
+              source="#f6455bdd-1ad0-4036-b335-7fa29575353d"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="59c1a9af-3906-41f7-8b1a-d638504d2567" name="42母线配电状态控制" target="#9732ee7e-eeb8-4e4f-b512-80e6d912d807"
+              source="#03da385e-cebe-40d9-a438-3d38d49e1b8d"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="572c2157-2039-4554-9c82-5ea23da5d87f" name="蓄电池供电" target="#42103998-3d98-4d67-80b4-b56161972fd6"
+              source="#3ef5965a-e4a7-4490-8447-f850594aecad"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="ce2c9cae-1c4c-4fc6-89a9-11e3f859ac94" name="火工品起爆控制" target="#4275d9fa-38e5-402b-9b9a-ef5d7e65d975"
+              source="#03adefc4-3ea7-47ab-920e-97aaba7d7e4e"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="64ffb5bd-ffb0-427e-8e5c-60f6798c50ca" name="热刀加热控制" target="#9706c987-10d3-4763-ad4f-eab0e9f283f8"
+              source="#190269ca-130f-4602-a36c-6a7054367629"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="d263b0e4-db60-4d9a-87c9-db8646019827" name="数据" target="#1dd83aea-3216-441b-9209-e92c981aa70c"
+              source="#48c0dc7d-bb18-40bb-b485-519c61d38832"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="c6a28f56-00ea-4e9a-87e6-20d708d6b006" name="指令" target="#592f2686-eb8b-4e0f-83b4-d7fcc7e5099b"
+              source="#ed6d080b-19e3-4225-bfc6-ce2e4f2ba9f7"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="fbb8b7d1-b82e-40e1-a77c-f1be34b84442" name="5V二次配电" target="#d1f6a172-4e3c-425c-bda4-0464050e597d"
+              source="#d92a67c5-1135-4aab-9e74-6612330f217f"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="66170f30-5d98-4bd3-b64d-616922c9b07c" name="28V指令供电" target="#6b93ebd8-ac4b-4ea4-a532-8157727603ee"
+              source="#c663847d-7e47-403e-8dec-70a9cfbfd8a5"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="ff63a9d1-6b8b-47b9-8e1d-e6f6d8ee646c" name="28V指令供电" target="#c8696423-7109-43cb-9856-da00f2ef5228"
+              source="#10b069ff-ef70-4256-a810-e7b21694b8c4"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="ef68a16e-da00-44b1-8cc7-0111b235843a" name="相控阵42V母线供电" target="#efe5adee-edd1-4b22-9dd0-dab403e74638"
+              source="#175dcf51-5fde-49f3-ac4f-10f193c115c0"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="1ff6f054-6709-4c72-8757-e50398bf9a57" name="42V母线供电" target="#cf28ded1-c8c7-4951-a78c-662734f8ef37"
+              source="#4449b829-7571-433c-b68d-df13fe3b7a28"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="7dcec904-9af0-4968-b8ad-d0c68fc82c0e" name="12V二次配电" target="#ef7fa617-7097-43b0-ba01-f3d0da64fd64"
+              source="#239afb9e-bf87-4b94-8740-1926f3995958"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="f6256ff0-63dc-4189-868e-7a5f1d020ba7" name="28V指令供电" target="#b34edd99-a89f-4bce-b172-a858951417e7"
+              source="#03f83900-853b-4885-9c50-9cff8f1faea2"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="b2c3c2ab-320f-4fd1-8f32-6ab0b85638b3" name="轨道与姿态输入参数" target="#7cb5fb31-a961-4d36-8807-abbfe5237396"
+              source="#005617a5-ad34-4c99-ac23-97bc4173f46b"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="a5b37f38-2e98-4f9f-bacd-9dc25194c80d" name="28V指令供电" target="#f51bfd25-5546-4f1e-9b44-dafbacfc03a4"
+              source="#9e0ebe7c-b32c-4927-8c02-6ded27693200"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="f3191df8-4543-4df1-bd6a-4e0f9bcd56ea" name="42V母线供电" target="#82a41e6d-775a-40d2-b0f1-5fc781fc26d4"
+              source="#0af72533-d3fe-4fed-8bdc-5470e28c380e"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="323422b0-c548-4566-a67c-a66a9bc24e54" name="42V母线供电" target="#6f02ac9a-1c2c-4d8f-93f9-8f6c6e9f5c4d"
+              source="#eb0cdb98-7398-4a0d-83ac-47088bd76d6f"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="89a50d2a-7ca6-4578-9492-553addffd8ad" name="42V母线供电" target="#4a011f4d-4265-4731-b413-9ea2de74bf3c"
+              source="#36e7b519-3de8-41be-a2a3-463582b96c9b"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="5babc109-c078-42f4-a360-d947bfdf1bce" name="42V母线供电" target="#19de5b0f-e2b7-49a5-a103-71acb6cd125b"
+              source="#ee0be4af-049b-4584-9db0-3fb89d9a616b"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="df686d55-6808-4d6d-b82b-2b3f05ed5a40" name="42V母线供电" target="#deaa8c57-81dd-4d7d-aa1a-250d4d36076e"
+              source="#6189a190-d8e0-4b6c-b14c-ac24c0ccb7dc"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="85e19590-6c40-41c4-9c08-9a63d639a623" name="42V母线供电" target="#d65c2514-fd2f-4f54-9db1-1bd2f5edf7de"
+              source="#929c2ba5-56fb-49ac-a9bb-cf087256be48"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="d2a65974-fdc6-4ed5-87c8-7c4f3b8db4b4" name="42V母线供电" target="#9f8ec981-84c8-4f49-a098-3e16aa83abc0"
+              source="#16c470b9-d305-4b34-bd41-d3b426f43d9f"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="9d21a0cd-f682-4a93-a3bc-ee970d240c20" name="28V指令供电" target="#38e5b073-cf8b-41ee-97d0-063c882ce117"
+              source="#9c160ff1-de94-4f17-9332-3394a9e964a1"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="bf2d92d1-855c-4be4-b201-1ee6009fafe7" name="28V指令供电" target="#304f102b-5fbc-460e-a41f-dcdefaa81d02"
+              source="#6fcb4380-d9e3-4c62-9f42-57b7e2304dab"/>
         </ownedLogicalFunctions>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.la:CapabilityRealizationPkg"
@@ -4418,6 +4797,30 @@
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="c3ce9335-5911-43d7-8d7b-6f58a5e1f960" targetElement="#bf7dfe16-ad76-4ffd-b0a1-35c372e87251"
                 sourceElement="#3d799b4a-ec58-4959-aef0-a57e373a4588"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="d60b3518-64cc-49d3-ba67-ade40f23ca43" targetElement="#c731d836-07e2-420e-966f-9ba2f066cfc9"
+                sourceElement="#3d799b4a-ec58-4959-aef0-a57e373a4588"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="b9456727-37e3-4748-a609-66b488391c9d" targetElement="#0f19e278-364f-4739-ad2e-42435e0b7c4e"
+                sourceElement="#3d799b4a-ec58-4959-aef0-a57e373a4588"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="d69633ef-befc-4cac-88e4-7db188cb40c7" targetElement="#b87f875f-a9d7-4ec7-b6b7-7d1ae14ab582"
+                sourceElement="#3d799b4a-ec58-4959-aef0-a57e373a4588"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="36c53a4d-fa34-40e6-901d-ec03fa03995a" targetElement="#96d09328-9756-4bb5-8c9b-53a078d68a2f"
+                sourceElement="#3d799b4a-ec58-4959-aef0-a57e373a4588"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="30c32e7b-8090-4bb1-bd42-900261d54f38" targetElement="#67d7647e-9ae2-4711-947f-44236ef653bf"
+                sourceElement="#3d799b4a-ec58-4959-aef0-a57e373a4588"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="002a43c9-a5c4-44c6-b1de-ecfaf2ca3867" targetElement="#8f964d10-d80d-4765-a6ad-40f848edaa1b"
+                sourceElement="#3d799b4a-ec58-4959-aef0-a57e373a4588"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="f129f293-c191-48f1-8293-2e0a026a8abb" targetElement="#12185493-1966-4244-ac48-6d31c491a142"
+                sourceElement="#3d799b4a-ec58-4959-aef0-a57e373a4588"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="5e45fbfa-12ae-411e-b75f-e9726db3b1e0" targetElement="#39c8b2f8-dd24-4a25-89b3-7cd2baaabebc"
+                sourceElement="#3d799b4a-ec58-4959-aef0-a57e373a4588"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="d4e0001d-ff87-4fad-bedb-f5b44c526625" name="CP 9" orientation="OUT"
                 kind="FLOW"/>
@@ -4472,6 +4875,95 @@
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="dd918552-0480-44ec-bdf2-6b28ecbdf484" targetElement="#da229682-0d14-485f-a1a5-0da993078ea1"
                 sourceElement="#cd434e7f-283f-4c86-8f00-9cd38e318c42"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="3e477c65-a4eb-4e57-9747-d7a531789707" targetElement="#ec9108a4-515c-465d-b42b-188017941ef8"
+                sourceElement="#cd434e7f-283f-4c86-8f00-9cd38e318c42"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="446cf24c-f610-4b61-83c9-8ab4c15fc54a" targetElement="#31085cc8-4d32-40ff-859f-c77b19edc843"
+                sourceElement="#cd434e7f-283f-4c86-8f00-9cd38e318c42"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="06bb23a8-b3fe-4d9a-9a5f-98c721de5be1"
+                name="太阳能电池阵" abstractType="#cac10cd1-5c69-407a-a31d-abe48fb5177a"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="b2fa1b98-f490-4d3a-868f-b6cc30010f07"
+                name="蓄电池组" abstractType="#a0ab246a-3960-4e9d-b06a-23c5f09573af"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="cf6d337e-989a-49e3-a8c6-7526a1b98149"
+                name="电源控制器" abstractType="#512e436d-5984-4606-bee3-74d97bb59e1e"/>
+            <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                id="cac10cd1-5c69-407a-a31d-abe48fb5177a" name="太阳能电池阵">
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="c82d65e7-7871-4416-9d52-37ea23e483b3" targetElement="#7de78fc1-1b0b-48d6-b0f0-b11c7705e201"
+                  sourceElement="#cac10cd1-5c69-407a-a31d-abe48fb5177a"/>
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="5b2e157a-150b-405e-a97a-fefb403144e4" targetElement="#b7cf53a6-93f7-4a25-928e-52b674b3c6c7"
+                  sourceElement="#cac10cd1-5c69-407a-a31d-abe48fb5177a"/>
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="8b119799-6fa8-4362-a6c9-4799ea1c7c29" targetElement="#55d01397-2fde-4067-8afe-16412f54eade"
+                  sourceElement="#cac10cd1-5c69-407a-a31d-abe48fb5177a"/>
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="012ccb2e-56bb-49ca-b332-5469d996ac0f" targetElement="#be633e90-9fd7-47ec-aab0-aa6381589f8d"
+                  sourceElement="#cac10cd1-5c69-407a-a31d-abe48fb5177a"/>
+            </ownedLogicalComponents>
+            <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                id="a0ab246a-3960-4e9d-b06a-23c5f09573af" name="蓄电池组">
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="5071b2bd-3134-4fda-b352-ab64ab47787b" targetElement="#90c1a8f4-9228-421c-9fcb-ff687899ee9a"
+                  sourceElement="#a0ab246a-3960-4e9d-b06a-23c5f09573af"/>
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="008b5d15-a120-47f1-94cf-48b49838518c" targetElement="#72b3962f-d583-4ccd-8a53-cd90409208c2"
+                  sourceElement="#a0ab246a-3960-4e9d-b06a-23c5f09573af"/>
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="2a1fbaf5-516e-4328-b145-5edcfff36fd2" targetElement="#affd8aef-0610-48f0-a296-3287d68fe726"
+                  sourceElement="#a0ab246a-3960-4e9d-b06a-23c5f09573af"/>
+            </ownedLogicalComponents>
+            <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                id="512e436d-5984-4606-bee3-74d97bb59e1e" name="电源控制器">
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="3a816456-6656-4936-b40a-80b43976c3df" targetElement="#ec7effbf-9a9b-4e0a-931c-bbc84b1e64d6"
+                  sourceElement="#512e436d-5984-4606-bee3-74d97bb59e1e"/>
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="eb04b609-5170-497d-a689-460f923fcdd8" targetElement="#cf73c8fc-b4b4-4ff9-807c-bb397dd3938b"
+                  sourceElement="#512e436d-5984-4606-bee3-74d97bb59e1e"/>
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="e2b8341a-39b4-419a-b980-67b28edef651" targetElement="#d13def03-08b9-4478-bbfc-e04e31443ac9"
+                  sourceElement="#512e436d-5984-4606-bee3-74d97bb59e1e"/>
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="9c15bd6f-86d7-4a03-915c-cf16dd1d4f8f" targetElement="#05de908c-55a6-4efa-b7ec-0df8f786d9ba"
+                  sourceElement="#512e436d-5984-4606-bee3-74d97bb59e1e"/>
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="a8228a5f-041a-4b6b-a029-bb8183c0295d" targetElement="#1ce9eed7-0441-4682-a908-c8e308aab50a"
+                  sourceElement="#512e436d-5984-4606-bee3-74d97bb59e1e"/>
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="a6e6db07-1a48-4251-8cc4-3e6d28cdeb46" targetElement="#2b654448-25ab-4781-b621-1ef6260e8620"
+                  sourceElement="#512e436d-5984-4606-bee3-74d97bb59e1e"/>
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="da4df02d-0c41-4dfa-8b82-17efd63fca4a" targetElement="#2e3d43e8-43a6-4ae7-9064-8fa0ce9b5ef6"
+                  sourceElement="#512e436d-5984-4606-bee3-74d97bb59e1e"/>
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="0469f630-dd65-4232-aab7-b58d7fedb9f0" targetElement="#3cc41b7d-bee1-4434-a3e2-9d6250f91671"
+                  sourceElement="#512e436d-5984-4606-bee3-74d97bb59e1e"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f22a1d2f-1ecb-44d1-b2a1-bcdce66ac796"
+                  name="下位机" abstractType="#b46309cb-7fff-4a59-b283-5e01a891e1ac"/>
+              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                  id="b46309cb-7fff-4a59-b283-5e01a891e1ac" name="下位机">
+                <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                    id="e0d87e1e-198e-4ae2-bbb2-98a5a7df5eeb" targetElement="#9d669145-10cc-4739-b294-d8dff892d5c9"
+                    sourceElement="#b46309cb-7fff-4a59-b283-5e01a891e1ac"/>
+                <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                    id="9753ff1c-2ec7-4eb9-ba52-1108405c02c9" targetElement="#a1a871b6-b581-4cf7-9a57-51439ac369ca"
+                    sourceElement="#b46309cb-7fff-4a59-b283-5e01a891e1ac"/>
+                <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                    id="e1886eb3-d8e0-4f8b-9b55-7d955ac2fa45" targetElement="#d42f21d3-1f86-4545-bdf4-82276b01275a"
+                    sourceElement="#b46309cb-7fff-4a59-b283-5e01a891e1ac"/>
+                <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                    id="e4fcac6d-4555-496e-a8cf-09fe153b019c" targetElement="#53a5605a-c4ef-464e-9d01-abd2e0a2ba9b"
+                    sourceElement="#b46309cb-7fff-4a59-b283-5e01a891e1ac"/>
+                <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                    id="88cdf31d-bbad-4dbf-a222-64423cb4d968" targetElement="#96cb6bd4-b66d-4511-a056-1000565284ab"
+                    sourceElement="#b46309cb-7fff-4a59-b283-5e01a891e1ac"/>
+                <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                    id="6922382f-df46-4326-a8e4-e929185ac78e" targetElement="#268fe93a-d971-40f2-a146-bf0b1792b5ce"
+                    sourceElement="#b46309cb-7fff-4a59-b283-5e01a891e1ac"/>
+              </ownedLogicalComponents>
+            </ownedLogicalComponents>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="4804d2c0-7ec8-4cd9-91f6-c960cff0ffc1" name="计算机软件"/>
@@ -4479,6 +4971,36 @@
               id="39905b9e-a450-4dbf-bc31-45fcaefd57dd" name="综合电子分系统">
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="c557ef8e-23ba-440e-8c9a-f70858cd1f89" targetElement="#e372be86-4597-4248-adff-6e228033148b"
+                sourceElement="#39905b9e-a450-4dbf-bc31-45fcaefd57dd"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="f8d5c8a9-d4da-4150-a678-90e6745218dd" targetElement="#a65a7f33-79de-4e50-902f-fed713e747f5"
+                sourceElement="#39905b9e-a450-4dbf-bc31-45fcaefd57dd"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="96f6984c-0e6c-4257-9fca-463b01076c0f" targetElement="#1c03fa52-6892-451d-a7ee-3528772135ad"
+                sourceElement="#39905b9e-a450-4dbf-bc31-45fcaefd57dd"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="87f436c0-a3ee-441e-8c13-558c94fa2656" targetElement="#98669149-c4b0-451a-b7cf-91e0d7a8da29"
+                sourceElement="#39905b9e-a450-4dbf-bc31-45fcaefd57dd"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="17cb126a-3c9d-4b98-b685-75f341c93712" targetElement="#d860deca-bc70-4843-965e-c54855d95e30"
+                sourceElement="#39905b9e-a450-4dbf-bc31-45fcaefd57dd"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="83759860-4b7d-4665-86a1-31e7ec569afe" targetElement="#45a55863-b987-4169-850c-5f467efe9251"
+                sourceElement="#39905b9e-a450-4dbf-bc31-45fcaefd57dd"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="9452cb29-e232-42d8-bf9e-6070e5608b3b" targetElement="#49fb4972-e98c-4c52-84c7-ac7c34d748ec"
+                sourceElement="#39905b9e-a450-4dbf-bc31-45fcaefd57dd"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="b4a25dac-c0a1-43c3-b384-ac5425b6219a" targetElement="#538d46ce-1f15-4563-89d8-5709b4e376c7"
+                sourceElement="#39905b9e-a450-4dbf-bc31-45fcaefd57dd"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="adf27ef6-274f-4f4b-97bc-4d3cc3f60200" targetElement="#11d66dc9-bb9e-409b-a77a-5e254f9e42a2"
+                sourceElement="#39905b9e-a450-4dbf-bc31-45fcaefd57dd"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="917a85a4-7658-4b46-9e0a-c3f215cf5287" targetElement="#eba5390a-7967-49d3-b064-3ec7cdebf32d"
+                sourceElement="#39905b9e-a450-4dbf-bc31-45fcaefd57dd"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="f25cbb9f-929c-45ff-9267-d6ab34be5c1c" targetElement="#0e96ac0b-4c2c-4c47-9405-e3503d981ccc"
                 sourceElement="#39905b9e-a450-4dbf-bc31-45fcaefd57dd"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="59533809-3a15-42e9-98a0-ab045ea2a8ba"
                 name="通信子系统" abstractType="#5d2c1664-3989-4d72-ac5b-9346e0d78bd6"/>
@@ -4581,6 +5103,12 @@
                 sourceElement="#8f767206-d3bb-42a8-907f-c647739c170c"/>
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="a6a958f7-9015-44ec-9b03-d3a44949ab33" targetElement="#8bf4ba92-9f85-47e2-81bd-13a43e52f85a"
+                sourceElement="#8f767206-d3bb-42a8-907f-c647739c170c"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="e58b29d2-92c8-4b6f-b137-5a19f158a8e9" targetElement="#bf1d30e7-f880-465c-816a-cd7183b6be7f"
+                sourceElement="#8f767206-d3bb-42a8-907f-c647739c170c"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="8a901426-4849-46ff-a976-1d5143dc0cac" targetElement="#18fd8bf8-51a2-415e-b04a-359045179994"
                 sourceElement="#8f767206-d3bb-42a8-907f-c647739c170c"/>
           </ownedLogicalComponents>
         </ownedLogicalComponents>
